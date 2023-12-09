@@ -35,9 +35,27 @@ a.blue {
     filter: drop-shadow(1px 1px 1px black);
 }
 
+.gritter-section{
+    padding: 20px 50px;
+}
+
 #gritter{
     color: #4d00ff;
     font-size: 100px;
+}
+
+#greets ul {
+    list-style-type: none;
+
+}
+
+.avatar {
+    background-image: url(../images/grittyFace.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .bold{
